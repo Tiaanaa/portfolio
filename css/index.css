@@ -1,0 +1,165 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+.resize{
+    background-color:#140401;
+    color:#FCFCE3;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.resize h1{
+   margin: 1rem;
+}
+.resize ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+.resize ul li {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FCFCE3;
+    transition: 0.5s;
+}
+nav ul li a:hover {
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+}
+html{scroll-behavior: smooth;}
+#home{
+    justify-content: center;
+    align-items: center;
+}
+#home video{
+    position: sticky;
+    top: 5%;
+    z-index: -1;
+}
+#home div{
+    text-align: center;
+}
+#videos{
+    justify-content: center;
+    align-items: center;
+}
+#videos img{
+    position: sticky;
+    top: 0%;
+    z-index: -1;
+}
+#videos h1{
+    text-align: center;
+    color: #140401;
+}
+.myvideos{
+    display: flex;
+    padding: 5px;    
+}
+#portfolio{
+    background-color: #e7e0e0;
+    text-align: center;
+    padding: 10px;
+}
+
+#portfolio div{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+#about{
+    display:flex;
+}
+#about .writeup{
+    background-color:#FCFCE3;
+}
+#about img{
+    position: sticky;
+    top: 0%;
+    z-index: -1;
+}
+#about button{
+    background-color: #140401;
+    color: #FCFCE3;
+    padding: 10px;
+    border-radius: 5px;   
+    border: none;
+}
+#about button:hover{
+    color: white;
+    cursor: pointer;
+}
+#insta{
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+#insta h1{
+    text-align: center;
+    color: #140401;
+}
+#insta h1 a{
+    text-decoration: none;
+    color: #140401;
+}
+#insta div{
+    display: flex;
+
+}
+#insta button{
+    background-color: #140401;
+    color: #FCFCE3;
+    padding: 10px;
+    border-radius: 5px;   
+    border: none;
+}
+#insta button:hover{
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+/*  */
+
+#contact img{
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:30%;
+    z-index: -1;
+}
+#contact .contact{
+    display: flex;
+    
+    color: #140401 ;
+    justify-content:space-between ;
+}
+#contact .socials{
+    display: flex;
+}
+#contact input{
+    background-color:#140401 ;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#contact button{
+    background-color:#140401 ;
+    color: #FCFCE3;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
