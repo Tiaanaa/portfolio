@@ -130,10 +130,9 @@ html{scroll-behavior: smooth;}
 /*  */
 
 #contact img{
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
     position: sticky;
-    top:30%;
+    bottom:0%;
     z-index: -1;
 }
 #contact .contact{
