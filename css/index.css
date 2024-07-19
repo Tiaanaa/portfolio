@@ -68,92 +68,91 @@ html{scroll-behavior: smooth;}
     display: flex;
     gap: 2rem;  
 }
-#portfolio{
+#github{
     background-color: #e7e0e0;
     text-align: center;
     padding: 10px;
 }
 
-#portfolio div{
+#github div{
     display: flex;
     justify-content: center;
     padding: 40px;
 }
 
-#about{
+#stack{
     display:flex;
 }
-#about .writeup{
+#stack .writeup{
     background-color:#FCFCE3;
 }
-#about img{
+#stack img{
     position: sticky;
     top: 0%;
     z-index: -1;
 }
-#about button{
+#stack button{
     background-color: #140401;
     color: #FCFCE3;
     padding: 10px;
     border-radius: 5px;   
     border: none;
 }
-#about button:hover{
+#stack button:hover{
     color: white;
     cursor: pointer;
 }
-#insta{
+#linkedin{
     justify-content: center;
     background-color: blanchedalmond;
 }
-#insta h1{
+#linkedin h1{
     text-align: center;
     color: #140401;
 }
-#insta h1 a{
+#linkedin h1 a{
     text-decoration: none;
     color: #140401;
 }
-#insta div{
+#linkedin div{
     display: flex;
 
 }
-#insta button{
+#linkedin button{
     background-color: #140401;
     color: #FCFCE3;
     padding: 10px;
     border-radius: 5px;   
     border: none;
 }
-#insta button:hover{
+#linkedin button:hover{
     color: white;
     cursor: pointer;
     overflow: hidden;
 }
 
-#contact{
+#email{
     justify-content: center;
     align-items: center;
     text-align: center;
     background-image: url(../images/IMG-20230626-WA0024.jpg);
     background-size: cover;
 }
-#contact .contact{
+#email .contact{
     display: flex;
-    
     color: #140401 ;
     justify-content:space-between ;
 }
-#contact .socials{
+#email .socials{
     display: flex;
 }
-#contact input{
+#email input{
     background-color:#140401 ;
     width: 300px;
     margin-bottom: 10px;
     border-radius: 4px;
 }
-#contact button{
+#email button{
     background-color:#140401 ;
     color: #FCFCE3;
     padding: 10px;
@@ -169,6 +168,8 @@ html{scroll-behavior: smooth;}
     background-size: cover;
 }
  */
-
+footer{
+    text-align: center;
+}
 
 
