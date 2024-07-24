@@ -42,6 +42,9 @@ nav ul li a:hover {
     font-size: 20px;
     overflow: hidden;
 }
+.icon{
+    margin-right: 8px;
+}
 html{scroll-behavior: smooth;}
 #home{
     position: relative;
@@ -54,8 +57,8 @@ html{scroll-behavior: smooth;}
     position: absolute;
     top: 0;
     left: 0;
-    /* width:; */
-    /* height%; */
+    position: sticky;
+    top: 5%;
     object-fit: cover;
     z-index: -1;
     }
@@ -64,12 +67,7 @@ html{scroll-behavior: smooth;}
     color: #FCFCE3;
     font-size: 30px;
 }
-#home video{
-    object-fit: cover;
-    position: sticky;
-    top: 5%;
-    z-index: -1;
- }
+
 #videos{
     justify-content: center;
     align-content: center;
@@ -90,13 +88,18 @@ html{scroll-behavior: smooth;}
 #github{
     background-color: #e7e0e0;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
 }
 
 #github div{
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
     padding: 40px;
+    margin: 10px;
+    gap: 1rem;
 }
 
 #stack{
@@ -144,6 +147,7 @@ html{scroll-behavior: smooth;}
     background-color: #140401;
     color: #FCFCE3;
     padding: 10px;
+    margin: 10px;
     border-radius: 5px;   
     border: none;
 }
@@ -157,7 +161,7 @@ html{scroll-behavior: smooth;}
     justify-content: center;
     /* align-items: center; */
     /* text-align: center; */
-    background-image: url(../images/IMG-20230626-WA0024.jpg);
+    /* background-image: url(../images/IMG-20230626-WA0024.jpg); */
     background-size: cover;
     background-position:bottom center;
     padding: 30px;
@@ -171,6 +175,8 @@ html{scroll-behavior: smooth;}
 }
 #email .socials{
     display: flex;
+    padding: 10px;
+
 }
 #email input{
     background-color:#140401 ;
@@ -200,13 +206,43 @@ footer{
     text-align: center;
 }
 
-
-
-
-.icon{
-    margin-right: 8px;
-}
-
 .details label{
-    color: white;
+    color: rgb(29, 15, 15);
+}
+@media only screen and (max-width: 768px){
+    .resize{
+       display: none; 
+    }    
+    #background-video{
+        width: 100vw;
+        height: auto;
+    }
+    .tiana{
+        font-size: medium;
+    }
+    #videoes img{
+        width: 100%;
+        height: auto;
+    }
+    .myvideos{
+        display: block;
+    }
+    #github div{
+        display: block;
+    }
+    #github img{
+        width: 100%;
+        height: auto;
+    }
+    #stack img{
+        display: none;
+    }
+    #email .contact{
+        display: block;
+    }
+    #linkedin div{
+        display: block;
+    
+    }    
+
 }
