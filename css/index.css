@@ -130,6 +130,7 @@ html{scroll-behavior: smooth;}
 #linkedin{
     justify-content: center;
     background-color: blanchedalmond;
+    padding: 5px;
 }
 #linkedin h1{
     text-align: center;
@@ -162,8 +163,8 @@ html{scroll-behavior: smooth;}
     /* align-items: center; */
     /* text-align: center; */
     /* background-image: url(../images/IMG-20230626-WA0024.jpg); */
-    background-size: cover;
-    background-position:bottom center;
+   /*  background-size: cover;
+    background-position:bottom center; */
     padding: 30px;
     margin: 20px;
 }
@@ -216,16 +217,17 @@ footer{
     #background-video{
         width: 100vw;
         height: auto;
+        top: 0%;
     }
     .tiana{
-        font-size: medium;
+        font-size: calc(0.5rem + 1vw);
     }
-    #videoes img{
+    #videos img{
         width: 100%;
-        height: auto;
+        height: auto;         
     }
-    .myvideos{
-        display: block;
+    #videos .myvideos{
+        display: block; 
     }
     #github div{
         display: block;
@@ -237,12 +239,19 @@ footer{
     #stack img{
         display: none;
     }
-    #email .contact{
-        display: block;
-    }
     #linkedin div{
         display: block;
-    
-    }    
-
+    } 
+    #email .contact{
+        display: block;
+        padding:3px;
+        margin: 2px;
+    }
+    #email .details{
+        width: 70vw;
+        height: auto;
+    }
+    #linkedin h1{
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
 }
