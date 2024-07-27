@@ -79,7 +79,7 @@ html{scroll-behavior: smooth;}
     z-index: -1;
 }
 #videos h1{
-    color: #140401;
+    color: #140401 !important;
 }
 .myvideos{
     display: flex;
